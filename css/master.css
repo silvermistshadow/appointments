@@ -1,0 +1,9 @@
+#apt-form {
+  border-width: thin;
+  margin: 12px;
+  max-width: 640px;
+}
+
+#apt-made {
+  display: none;
+}

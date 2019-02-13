@@ -6,9 +6,42 @@
     <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
     <script src="js/scripts.js" charset="utf-8"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>Appointments</title>
   </head>
   <body>
+    <div class="container">
+      <h3>Appointments</h3>
+      To make an appointment with me, fill out this form:
+      <div id="apt-form">
+        <form id="entry">
+          <div class="form-group">
+            <label for="yourname">Your name:</label>
+            <input id="yourname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="apt-desc">Description of the appointment:</label>
+            <input id="apt-desc" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="apt-date">Date:</label>
+            <input id="apt-date" class="form-control" type="date">
+          </div>
+          <div class="form-group">
+            <label for="apt-starttime">Start time:</label>
+            <input id="apt-starttime" class="form-control" type="time">
+          </div>
+          <div class="form-group">
+            <label for="apt-endtime">End time:</label>
+            <input id="apt-endtime" class="form-control" type="time">
+          </div>
+          <button type="submit" class="btn">Make appointment</button>
+        </form>
+      </div>
+      <div id="apt-made">
+
+      </div>
+
+    </div>
 
   </body>
 </html>
